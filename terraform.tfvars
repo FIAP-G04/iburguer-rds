@@ -1,0 +1,7 @@
+prefix = "iburguer"
+vpc_cidr_block = "10.0.0.0/16"
+db_name = "iburguer"
+db_engine = "postgres"
+db_engine_version = "16.1"
+db_user = "iburger"
+db_password = "IrluS40MJoqKKOI+8sIJikPiW2f[t0?KX-k)FPmQ-2,vZXHA=l?mK?6gbBvhX9#{"
