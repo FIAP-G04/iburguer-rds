@@ -4,6 +4,11 @@ terraform {
     aws = ">=5.38.0"
     local = ">=2.4.1"
   }
+  backend "s3" {
+    bucket = "iburguer-bucket-rds"
+    key = "terraform.tfstate"
+    region = "us-east-1"
+  }
 }
 
 provider "aws" {
