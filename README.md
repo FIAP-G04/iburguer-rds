@@ -30,6 +30,29 @@ ___________________________________________________
 
 <!-- Tabela de conteúdo do projeto -->
 
+## Objetivo
+Esse repositório tem por objetivo armazenar a estrutura em Terraform do **banco de dados relacional Postgres** através do recurso **RDS** da AWS.
+
+# ➡️ Execução
+
+<!-- Pré-requisitos para rodar o projeto -->
+
+Para executar este projeto, é necessário possuir o [Terraform](https://www.terraform.io/) instalado, assim como as credenciais da [AWS](https://aws.amazon.com/pt/) configuradas.
+
+Para incializar o projeto e instalar as dependências, é necessário executar o comando:
+
+``` terraform ini ``` 
+
+Para visualizar todos os recursos que serão provisionados na AWS, o comendo a seguir pode ser executado:
+
+``` terraform plan ``` 
+
+Por fim, para provisionar os recursos, é necessário executar o comando:
+
+``` terraform apply ``` 
+
+Durante a execução do comando anterior, será solicitada a confirmação do provisionamento dos recursos. É necessário digitar exatamente ***yes*** para seguir com o provisionamento.
+
 # 📕 License
 
 Lançado em 2023 📕 License
