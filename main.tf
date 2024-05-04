@@ -39,7 +39,7 @@ module "redis" {
   subnet_ids = module.vpc.subnet_ids
 }
 
-
+/*
 output "rds_db_user" {
   value = module.rds.rds_db_user
 }
@@ -50,7 +50,7 @@ output "rds_db_name" {
 
 output "rds_db_host" {
   value = module.rds.rds_db_host
-}
+}*/
 
 output "atlas_cluster_connection_string" { value = module.atlas-mongodb.atlas_cluster_connection_string }
 output "project_name"      { value = module.atlas-mongodb.project_name }
