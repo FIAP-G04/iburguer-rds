@@ -16,7 +16,7 @@ resource "mongodbatlas_database_user" "db-user" {
 
 resource "mongodbatlas_project_ip_access_list" "ip" {
   project_id = mongodbatlas_project.atlas-project.id
-  ip_address = var.cidr_block
+  cidr_block = var.cidr_block
 }
 
 
