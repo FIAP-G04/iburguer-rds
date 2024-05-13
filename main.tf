@@ -19,7 +19,7 @@ module "rds" {
 module "atlas-mongodb" {
   source = "./module/atlas"
   atlas_org_id = "661daa658c7c1d51e316da2a"
-  atlas_project_name = "iburguer-menu"
+  atlas_project_name = "iburguer"
   environment = "dev"
   cluster_instance_size_name = "M0"
   cloud_provider = "AWS"
