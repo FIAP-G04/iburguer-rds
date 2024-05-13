@@ -5,3 +5,5 @@ variable "db_user" {}
 variable "db_password" {}
 variable "prefix" {}
 variable "vpc_cidr_block" {}
+variable "mongodbatlas_public_key" {}
+variable "mongodbatlas_private_key" {}

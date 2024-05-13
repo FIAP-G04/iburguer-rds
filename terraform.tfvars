@@ -4,4 +4,7 @@ db_name = "iburguer"
 db_engine = "postgres"
 db_engine_version = "16.1"
 db_user = "iburguer"
-db_password = "p1VTSsrRWKzY"
+db_password = "p1VTSsrRWKzYp1VTSsrRWKzY"
+
+mongodbatlas_public_key = "ufyzkvqv"
+mongodbatlas_private_key = "b6567a1c-1533-4e26-be59-c11d14d59380"
