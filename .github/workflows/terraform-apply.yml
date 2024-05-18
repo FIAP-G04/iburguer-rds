@@ -34,4 +34,4 @@ jobs:
 
       - name: Terraform Apply
         id: apply
-        run: terraform apply -auto-approve
+        run: terraform apply -auto-approve -var="mongodbatlas_public_key=${{ secrets.ATLAS_PUBLIC_KEY }}" -var="mongodbatlas_private_key=${{ secrets.ATLAS_PRIVATE_KEY }}"
