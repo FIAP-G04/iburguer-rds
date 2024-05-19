@@ -29,7 +29,7 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
         with:
-          terraform_version: 
+          terraform_version: 1.7.4
 
       - name: Terraform Init
         id: init
@@ -37,4 +37,4 @@ jobs:
 
       - name: Terraform Destroy
         id: destroy
-        run: terraform destroy -auto-approve
+        run: terraform destroy -auto-approve -var="mongodbatlas_public_key=${{ secrets.ATLAS_PUBLIC_KEY }}" -var="mongodbatlas_private_key=${{ secrets.ATLAS_PRIVATE_KEY }}"
